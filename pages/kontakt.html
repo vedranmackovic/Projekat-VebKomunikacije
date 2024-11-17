@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="icon" type="image/x-icon" href="../images/PionirIkona.png">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/70cce1d5d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-icon">
+            <img src="../images/PionirIkona.png" alt="">
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="../index.html">O nama</a></li>
+                <li><a href="meni.html">Meni</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+    <h1 id="kontakt">Kontakt</h1>
+    <div class="kontakt-forma">
+        <form class="leva-forma" name="forma" method="post" onsubmit="posaljiFormu(event)">
+            <h3>Kontaktirajte nas</h3>
+            <div class="polja-forme">
+                <div class="input-polja">
+                    <p>Ime i prezime:</p>
+                    <input type="text" name="ime">
+                </div>
+                <div class="input-polja">
+                    <p>Email:</p>
+                    <input type="email" name="email">
+                </div>
+                <div class="input-polja">
+                    <p>Vaša poruka:</p>
+                    <textarea name="tekst"></textarea>
+                </div>
+                <input type="submit" value="Pošalji" class="posalji">
+            </div>
+        </form>
+        <div class="desna-forma"></div>
+    </div>
+    <footer>
+        <div class="footer-social-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="../script/script.js"></script>
+</body>
+</html>
