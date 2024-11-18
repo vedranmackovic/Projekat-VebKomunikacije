@@ -88,27 +88,27 @@ function proracun(){
     var jagoda = 0;
     var visnja = 0;
     while(i<10){
-        var broj = Number(prompt("Unesite koliko kesa negro bombona zelite:"));
+        broj = Number(prompt("Unesite koliko kesa negro bombona zelite:"));
         negro += broj;
         i += broj;
 
-        var broj = Number(prompt("Unesite koliko kesa mentol bombona zelite:"));
+        broj = Number(prompt("Unesite koliko kesa mentol bombona zelite:"));
         mentol += broj;
         i += broj;
 
-        var broj = Number(prompt("Unesite koliko kesa bombona od narandze zelite:"));
+        broj = Number(prompt("Unesite koliko kesa bombona od narandze zelite:"));
         narandza += broj;
         i += broj;
 
-        var broj = Number(prompt("Unesite koliko kesa bombona od limuna zelite:"));
+        broj = Number(prompt("Unesite koliko kesa bombona od limuna zelite:"));
         limun += broj;
         i += broj;
 
-        var broj = Number(prompt("Unesite koliko kesa bombona od jagode zelite:"));
+        broj = Number(prompt("Unesite koliko kesa bombona od jagode zelite:"));
         jagoda += broj;
         i += broj;
 
-        var broj = Number(prompt("Unesite koliko kesa bombona od visnje zelite:"));
+        broj = Number(prompt("Unesite koliko kesa bombona od visnje zelite:"));
         visnja += broj;
         i += broj;
     }

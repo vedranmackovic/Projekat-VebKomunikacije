@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap:https://vedranmackovic.github.io/Projekat-VebKomunikacije/sitemap.xml
